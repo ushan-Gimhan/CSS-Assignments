@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 03-Q01</title>
+    <link rel="stylesheet" href="assest/css/normalize.css">
+    <style>
+        section>div:nth-child(1){
+            background: red;
+            width: 50vw;
+            height: 50vh;
+            top:0;
+            position: absolute;
+        }
+        section>div:nth-child(2){
+            background: green;
+            width: 50vw;
+            height: 50vh;
+            right: 0;
+            position: absolute;
+        }
+        section>div:nth-child(3){
+            background: deeppink;
+            width: 50vw;
+            height: 50vh;
+            right: 0;
+            bottom: 0;
+            position: absolute;
+        }
+        section>div:nth-child(4){
+            background: gold;
+            width: 50vw;
+            height: 50vh;
+            left: 0;
+            bottom: 0;
+            position: absolute;
+        }
+        section>div>div{
+            width: 20%;
+            aspect-ratio: 1/1;
+            border-radius: 100%;
+            background: white;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+        section>div.cen{
+            width: 15vw;
+            aspect-ratio: 1/1;
+            background: white;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top:0;
+            bottom: 0;
+            margin: auto;
+        }
+        section>div.cen>div{
+            width: 10vw;
+            background: red;
+            aspect-ratio: 1/1;
+            border-radius: 100%;
+            position: absolute;
+            margin: auto;
+        }
+        section>div>div>div{
+            width: 5vw;
+            aspect-ratio: 1/1;
+            background: red;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+        section>div.right{
+            width: 5vw;
+            aspect-ratio: 1/1;
+            background: white;
+            border-radius: 0 0 360px 0;
+            position: absolute;
+        }
+        section>div.left{
+            width: 5vw;
+            aspect-ratio: 1/1;
+            background: white;
+            border-radius: 0 0 0 360px;
+            position: absolute;
+            right: 0;
+        }
+        section>div.ldown{
+            width: 5vw;
+            aspect-ratio: 1/1;
+            background: white;
+            border-radius: 0 360px 0 0;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+        section>div.rdown{
+            width: 5vw;
+            aspect-ratio: 1/1;
+            background: white;
+            border-radius: 360px 0 0 0;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+        section>div.bmiddle{
+            width: 100px;
+            height: 50px;
+            background-color: white;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        section>div.tmiddle{
+            width: 100px;
+            height: 50px;
+            background-color: white;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <div><div><div></div></div></div>
+        <div><div><div></div></div></div>
+        <div><div><div></div></div></div>
+        <div><div><div></div></div></div>
+        <div class="cen"><div></div></div>
+        <div class="right"></div>
+        <div class="left"></div>
+        <div class="rdown"></div>
+        <div class="ldown"></div>
+        <div class="tmiddle"></div>
+        <div class="bmiddle"></div>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 03-Q03</title>
+    <link rel="stylesheet" href="assest/css/normalize.css">
+
+    <style>
+        body>div{
+            width: 25vw;
+            aspect-ratio: 1/1;
+            box-sizing: border-box;
+            border-radius: 100%;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            border: 12px solid brown;
+        }
+        body>div>div{
+            width: 360px;
+            aspect-ratio: 1/1;
+            box-sizing: border-box;
+            border-radius: 100%;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            border: 12px solid red;
+        }
+        body>section{
+            width:100%;
+            aspect-ratio: 1/1;
+            position: relative;
+        }
+        body>section>div.first{
+            width: 342px;
+            aspect-ratio: 1/1;
+            background: purple;
+            border-radius: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        body>section>div.third{
+            width: 342px;
+            aspect-ratio: 1/1;
+            background: lightcoral;
+            border-radius: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        body>section>div.second{
+            width: 342px;
+            aspect-ratio: 1/1;
+            background:lightskyblue;
+            border-radius: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        body>section>div>p{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            font-weight: bold;
+            font-size: 30px;
+            color: white;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<section>
+    <div class="first"><p>Hello</p></div>
+</section>
+
+<section>
+    <div class="second"><p>Welcome to </p></div>
+</section>
+<section>
+    <div class="third"><p>Institute of Software Engineering</p></div>
+</section>
+
+<div><div></div></div>
+<div><div></div></div>
+<div><div></div></div>
+<div><div></div></div>
+</body>
+</html>

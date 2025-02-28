@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 03-Q02</title>
+    <link rel="stylesheet" href="assest/css/normalize.css">
+
+    <style>
+        body{
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        body>header{
+            width: 100vw;
+            height: 10vh;
+        }
+
+        body>header>img{
+            width: 15%;
+            padding-left: 20px;
+            position: absolute;
+        }
+        body>header>nav{
+            right: 0;
+            margin: auto;
+            padding-top: 30px;
+            padding-right: 20px;
+            position: absolute;
+        }
+        body>header>nav>a{
+            text-decoration: none;
+            padding-right: 10px;
+            font-size: 20px;
+            color: black;
+            font-weight: bold;
+        }
+        body>aside{
+            width: 18%;
+            min-height: 100vh;
+            position: absolute;
+            background: purple;
+            border-top: 3px solid black;
+        }
+        body>aside>dl>dd>a{
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        body>main{
+            width: 82%;
+            height: 20vh;
+            position: absolute;
+            right: 0;
+            flex: 1;
+            border-top: 3px solid black;
+        }
+        body>main>section.imag {
+            display: flex;
+            flex-direction: row;
+        }
+        body>main>section>div{
+            display: block;
+            position: relative;
+            width: 33%;
+            border-top: 1px solid orange;
+            border-left: 1px solid green;
+            border-bottom: 1px solid green;
+            border-right: 1px solid green;
+
+        }
+        body>main>section>div>img{
+            right: 0;
+            width: 100%;
+        }
+        body>footer{
+            width: 100vw;
+            background: grey;
+            position: fixed;
+            bottom: 0;
+        }
+        body>footer>h5{
+            color: white;
+            text-align: center;
+            font-size: 14px;
+        }
+
+    </style>
+</head>
+<body>
+<header>
+    <img src="assest/images/ijse@1x.png">
+
+    <nav>
+        <a href="">Home</a>
+        <a href="">Services</a>
+        <a href="">Contact</a>
+        <a href="">About Us</a>
+    </nav>
+</header>
+
+<aside>
+    <dl>
+        <dd><a href="">Home</a></dd>
+        <dd><a href="">Services</a></dd>
+        <dd><a href="">Contacts</a></dd>
+        <dd><a href="">About Us</a></dd>
+    </dl>
+</aside>
+<main>
+    <section class="imag">
+        <div><img class="fist" src="assest/images/monkey%20(2).gif"> </div>
+        <div><img class="second" src="assest/images/monkey%20(2).gif"> </div>
+        <div><img class="third" src="assest/images/monkey%20(2).gif"> </div>
+    </section>
+    <section>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam blanditiis dolor ducimus eaque earum eligendi maxime obcaecati, omnis quidem recusandae reiciendis, repellendus? Culpa dicta ea libero nisi officia repudiandae voluptatem!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad animi consectetur eligendi id illo incidunt iure, magni neque rem, sint tempora veniam voluptatem. Deserunt exercitationem maxime nostrum recusandae veniam?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad aliquam cum debitis, deleniti dicta eaque eos exercitationem facilis illum iusto laboriosam mollitia nemo optio placeat rem repellendus reprehenderit saepe!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aperiam, consequatur delectus dicta ipsum rem! Culpa eaque, minima mollitia numquam quae vero vitae voluptates? Dolorum magnam odio suscipit totam voluptatum.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium cumque ea harum ipsa laboriosam modi molestias nam neque numquam obcaecati odit saepe, sint? Consectetur debitis dicta earum inventore nobis?
+        </p>
+    </section>
+</main>
+<footer>
+    <h5>Developed By IJSE</h5>
+</footer>
+</body>
+</html>
